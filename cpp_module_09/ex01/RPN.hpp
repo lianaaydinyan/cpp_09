@@ -8,13 +8,14 @@
 #include <sstream>
 #include <climits>
 #include <cstdlib>
-
+#include <stdexcept>
+#include <cctype>
 
 class rpn_calculator // name ?
 {
     private:
         std::stack<int> container;
-        int             tmp_r;
+    int             tmp_r;~~~
         int             tmp_l;
         int             calculator(char); //
     public:
@@ -32,4 +33,4 @@ class rpn_calculator // name ?
 
 
 
-#endif
+#endif~
